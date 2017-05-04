@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jzbwlkj.testdemo.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_nearby_notify"
+        android:layout_marginTop="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/nearby_bg"
+        android:layout_width="215dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@color/colorAccent"
+            android:layout_margin="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_marginLeft="4dp"
+            android:text="你收到1条新的打招呼"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/nearby_back"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_nearby_img"
+        android:layout_below="@+id/ll_nearby_notify"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/nearby"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="click"
+        android:id="@+id/bt_nearby_show"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/img_nearby_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bt_bg"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="查看附近的人"/>
+</RelativeLayout>
