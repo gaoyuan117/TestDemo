@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NearbyActivity" />
-        <activity android:name=".GreetActivity"></activity>
+        <activity android:name=".GreetActivity" />
+        <activity android:name=".AdverDetailActivity"></activity>
     </application>
 
 </manifest>
