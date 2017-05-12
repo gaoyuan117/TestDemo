@@ -14,12 +14,12 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.ll_nearby_notify).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, GreetActivity.class));
+                startActivity(new Intent(MainActivity.this, InviteDetailActivity.class));
             }
         });
     }
 
     public void click(View view) {
-        startActivity(new Intent(this, NearbyActivity.class));
+        startActivity(new Intent(this, EvaluateActivity.class));
     }
 }

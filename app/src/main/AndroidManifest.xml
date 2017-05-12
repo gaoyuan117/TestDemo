@@ -17,7 +17,10 @@
         </activity>
         <activity android:name=".NearbyActivity" />
         <activity android:name=".GreetActivity" />
-        <activity android:name=".AdverDetailActivity"></activity>
+        <activity android:name=".AdverDetailActivity" />
+        <activity android:name=".InviteActivity" />
+        <activity android:name=".InviteDetailActivity" />
+        <activity android:name=".EvaluateActivity"></activity>
     </application>
 
 </manifest>
